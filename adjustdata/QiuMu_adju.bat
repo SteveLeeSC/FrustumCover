@@ -1,0 +1,10 @@
+copy .\*.* \\192.0.2.131\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.132\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.133\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.134\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.135\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.136\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.137\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.138\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.139\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\
+copy .\*.* \\192.0.2.140\FlightUnigine\ATC\WindowsNoEditor\JtrsScenario\Binaries\Win64\adjustdata\

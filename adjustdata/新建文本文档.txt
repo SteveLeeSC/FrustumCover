@@ -1,0 +1,16 @@
+int tIndex = 14; 
+float4 t1 =SceneTextureLookup (float2(AdjustU, AdjustV), 14, false); 
+float4 midColor; float4 endColor; 
+
+midColor.r = Texture2DSample(InfTex, InfTexSampler, float2(0.5, t1.r)).r; 
+midColor.g = Texture2DSample(InfTex, InfTexSampler, float2(0.5, t1.g)).g; 
+midColor.b = Texture2DSample(InfTex, InfTexSampler, float2(0.5, t1.b)).b; 
+midColor.a = 1; 
+midColor = midColor * Indentiy;
+endColor.r = Texture2DSample(InfInvertTex, InfInvertTexSampler, float2(0.5, midColor.r)).r; 
+endColor.g = Texture2DSample(InfInvertTex, InfInvertTexSampler, float2(0.5, midColor.g)).g; 
+endColor.b = Texture2DSample(InfInvertTex, InfInvertTexSampler, float2(0.5, midColor.b)).b; 
+endColor.a = 1; 
+float4 col; 
+col =endColor * mask;
+return endColor;
